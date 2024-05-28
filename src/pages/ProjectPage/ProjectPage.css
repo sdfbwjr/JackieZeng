@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+.content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+}
+
+.proj-page-title h1 {
+  display: inline-block;
+  width: 50%;
+  margin-top: 1rem;
+  color: #ab5666;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.proj-page-title p {
+}
+
+.proj-page-title {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  /* save for media query 
+  align-items: center;*/
+}
+
+.proj-page-header-img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.proj-page-card-img p {
+  margin-bottom: 2rem;
+}
+.proj-page-side-info {
+  display: inline-block;
+  width: 50%;
+  margin-top: 1.5rem;
+}
+
+.proj-page-side-info p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 1200px) {
+  .content {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .content {
+    width: 90%;
+  }
+  .projects-list-card h1 {
+    display: inline-block;
+    font-size: 1.75rem;
+  }
+  .proj-page-title h1 {
+    font-size: 1.75rem;
+    width: 100%;
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+  .proj-page-title {
+    display: block;
+  }
+  .proj-page-side-info {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .proj-page-side-info p {
+    font-size: 0.9rem;
+  }
+}

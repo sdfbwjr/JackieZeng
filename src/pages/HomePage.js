@@ -5,18 +5,18 @@ const HomePage = () => (
     <div className="homepage">
       <div className="profileimg-container">
         {" "}
-        <img src={process.env.PUBLIC_URL + "/img/Thomas.png"} />
+        <img src={process.env.PUBLIC_URL + "/img/Jackie.jpg"} />
       </div>
 
       <div className="homepage-text">
         <div className="title">
-          <h1>Thomas Liu</h1>
+          <h1>Jackie Zeng</h1>
           <div>
-            <a href="https://github.com/ThomasJnLiu" target="_blank">
+            <a href="https://github.com/sdfbwjr" target="_blank">
               <img src={process.env.PUBLIC_URL + "/img/GitHub-icon.png"} />
             </a>
             <a
-              href="https://www.linkedin.com/in/thomas-jn-liu/"
+              href="linkedin.com/in/jackie-z-8330b71a5"
               target="_blank"
             >
               <img src={process.env.PUBLIC_URL + "/img/Linkedin-icon.png"} />

@@ -5,21 +5,21 @@ const HomePage = () => (
     <div className="homepage">
       <div className="profileimg-container">
         {" "}
-        <img src={process.env.PUBLIC_URL + "/img/Jackie.jpg"} />
+        <img src={process.env.PUBLIC_URL + "/img/Jackie.jpg"} alt="personal" />
       </div>
 
       <div className="homepage-text">
         <div className="title">
           <h1>Jackie Zeng</h1>
           <div>
-            <a href="https://github.com/sdfbwjr" target="_blank">
-              <img src={process.env.PUBLIC_URL + "/img/GitHub-icon.png"} />
+            <a href="https://github.com/sdfbwjr" target="_blank" rel="noreferrer">
+              <img src={process.env.PUBLIC_URL + "/img/GitHub-icon.png"} alt="git"/>
             </a>
             <a
-              href="linkedin.com/in/jackie-z-8330b71a5"
-              target="_blank"
+              href="https://linkedin.com/in/jackie-z-8330b71a5"
+              target="_blank" rel="noreferrer"
             >
-              <img src={process.env.PUBLIC_URL + "/img/Linkedin-icon.png"} />
+              <img src={process.env.PUBLIC_URL + "/img/Linkedin-icon.png"} alt="Linkedin"/>
             </a>
           </div>
         </div>

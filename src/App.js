@@ -3,11 +3,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import "./App.css";
 import HomePage from "./pages/HomePage";
-import OAAPage from "./pages/OAAPage";
 import NavBar from "./components/NavBar";
-import ProjectListPage from "./pages/ProjectListPage";
-import ProjectPage from "./pages/ProjectPage/ProjectPage";
-import NotFoundPage from "./pages/NotFoundPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
@@ -26,8 +22,6 @@ function App() {
           */}
           <Switch>
             <Route path="/" component={HomePage} exact />
-            <Route path="/Projects" component={ProjectListPage} exact />
-            <Route path="/Projects/:name" component={ProjectPage} exact />
           </Switch>
         </div>
       </div>
